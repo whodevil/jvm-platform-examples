@@ -2,7 +2,7 @@ plugins {
     id("info.offthecob.Settings") version "1.0.11"
 }
 
-rootProject.name = "jvm-platform-examples"
+rootProject.name = "offthecob-platform-examples"
 
 dependencyResolutionManagement {
     repositories {

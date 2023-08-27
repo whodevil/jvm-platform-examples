@@ -1,5 +1,5 @@
-# jvm-platform-examples
-This codebase is intended to share examples of using the [offthecob platform](https://github.com/whodevil/jvm-platform).
+# Offthecob Platform Examples
+This codebase is intended to share examples of using the [offthecob platform](https://github.com/whodevil/offthecob-platform).
 
 # Base 
 A simple quicksort app using the `info.offthecob.Base` gradle plugin, and the `info.offthecob.platform:common` library.
