@@ -1,13 +1,13 @@
+import com.google.inject.AbstractModule
 import com.google.inject.Provides
 import com.google.inject.Singleton
 import com.google.inject.name.Named
-import dev.misfitlabs.kotlinguice4.KotlinModule
 
 const val WORD_URL = "word-url"
 const val MIT_ECPRICE_WORD_LIST = "https://www.mit.edu/~ecprice/wordlist.10000"
 const val NUMBER_OF_WORDS = "number-of-words"
 
-class BaseModule : KotlinModule() {
+class BaseModule : AbstractModule() {
     @Provides
     @Singleton
     @Named(WORD_URL)
