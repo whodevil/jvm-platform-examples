@@ -1,0 +1,13 @@
+type Word {
+    characters: String
+    weight: Int
+    color: String
+}
+
+input WordsInput {
+    numberOfWords: Int
+}
+
+type Query {
+    words(input: WordsInput!): [Word]
+}
